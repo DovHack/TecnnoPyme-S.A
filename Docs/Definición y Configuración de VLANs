@@ -1,0 +1,13 @@
+#Definición y Configuración de VLANs – TecnoPYME S.A.
+
+Este documento describe la creación, propósito y verificación de las VLANs utilizadas en la infraestructura de red de TecnoPYME S.A., con el objetivo de segmentar el tráfico por departamentos y mejorar seguridad, orden y escalabilidad.
+
+1. VLANs Definidas
+VLAN ID	Nombre	Departamento / Uso
+10	ADMIN	Administración
+20	GUEST	Visitantes / WiFi
+30	TI	Tecnología de la Información
+40	MGMT	Gestión / Dirección Técnica
+50	SALES	Producción / Ventas
+
+📌 La VLAN 1 no se utiliza para dispositivos finales (.
