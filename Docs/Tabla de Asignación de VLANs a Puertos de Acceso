@@ -1,0 +1,33 @@
+###>>>>>>>Tabla de Asignación de VLANs a Puertos de Acceso
+
+### Switch Piso 1 – Administración y Guest
+
+Puerto	VLAN	Departamento	Dispositivo
+Fa0/6	10	ADMIN	Laptop Gerente
+Fa0/7	10	ADMIN	PC Asistente Admin
+Fa0/8	20	GUEST	Access Point Piso 1
+
+### Switch Piso 2 – TI y MGMT
+
+Puerto	VLAN	Departamento	Dispositivo
+Fa0/6	30	TI	PC Técnico TI 1
+Fa0/7	30	TI	PC Técnico TI 2
+Fa0/8	30	TI	Laptop Supervisor TI
+Fa0/9	30	TI	Server0
+Fa0/10	40	MGMT	PC Técnico MGMT 1
+Fa0/11	40	MGMT	PC Técnico MGMT 2
+Fa0/12	40	MGMT	Laptop Supervisor MGMT
+
+### Switch Piso 3 – SALES
+
+Puerto	VLAN	Departamento	Dispositivo
+Fa0/6	50	SALES	PC Supervisor Planta
+Fa0/7	50	SALES	PC Operador 1
+Fa0/8	50	SALES	PC Operador 2
+Fa0/9	50	SALES	PC Operador 3
+Fa0/10	50	SALES	PC Operador 4
+Fa0/11	50	SALES	PC Operador 5
+Fa0/12	50	SALES	PC Operador 6
+Fa0/13	50	SALES	PC Operador 7
+Fa0/14	50	SALES	PC Operador 8
+Fa0/15	50	SALES	Impresora Producción
