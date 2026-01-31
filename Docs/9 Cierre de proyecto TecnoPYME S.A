@@ -1,0 +1,9 @@
+### Cierre del Proyecto – Lecciones Aprendidas
+
+>>> El desarrollo del proyecto TecnoPYME S.A permitió aplicar de forma práctica los conceptos teóricos relacionados con redes empresariales, especialmente en lo referente a segmentación mediante VLANs y enrutamiento inter-VLAN utilizando Router-on-a-Stick. A lo largo de la implementación se evidenció la importancia de seguir un orden lógico de trabajo, comenzando por la capa física y avanzando progresivamente hacia la configuración lógica y las pruebas de conectividad.
+
+<<<Una de las principales lecciones aprendidas fue que una correcta planificación de la topología y la documentación previa facilitan significativamente la configuración y el diagnóstico de problemas. Aspectos como la nomenclatura clara de dispositivos, el uso adecuado de puertos Gigabit para enlaces backbone y la separación de funciones por VLAN resultaron clave para mantener una red organizada y escalable.
+
+>>>Durante el proyecto también se reforzó la importancia del troubleshooting estructurado. Se comprobó que problemas de conectividad no siempre están relacionados con configuraciones complejas, sino que pueden deberse a detalles básicos como cableado, puertos en estado shutdown o VLANs no propagadas correctamente. El uso sistemático de comandos de verificación y pruebas como el ping matriz permitió validar el funcionamiento real de la red.
+
+<<<Finalmente, este proyecto permitió comprender cómo una red segmentada mejora el control, la seguridad y la administración en un entorno tipo PYME. La infraestructura implementada queda preparada para futuras mejoras, como la asignación dinámica de direcciones IP mediante DHCP, la aplicación de listas de control de acceso (ACLs) y el endurecimiento de la seguridad en capa 2. En conjunto, el trabajo realizado representa una base sólida para proyectos más avanzados en redes y ciberseguridad.
