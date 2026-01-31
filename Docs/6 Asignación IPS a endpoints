@@ -1,0 +1,91 @@
+# Asignación de IPs y Gateways a Dispositivos Finales
+
+## Proyecto
+**TecnoPYME S.A – Infraestructura de Red Segmentada con VLANs**
+
+## Etapa del proyecto
+Configuración de direccionamiento IP en dispositivos finales (endpoints) y validación de conectividad.
+
+---
+
+## Objetivo
+
+Asignar direcciones IP estáticas y gateways correctos a todos los dispositivos finales de la red, de acuerdo con su VLAN, con el fin de habilitar la comunicación intra-VLAN e inter-VLAN a través del Router-on-a-Stick previamente configurado.
+
+Esta etapa valida que la segmentación lógica y el enrutamiento funcionan correctamente en un entorno tipo PYME.
+
+---
+
+## Esquema de Direccionamiento IP
+
+| VLAN | Departamento | Red | Gateway |
+|-----|-------------|------|--------|
+| 10 | ADMIN | 192.168.10.0/24 | 192.168.10.1 |
+| 20 | GUEST | 192.168.20.0/24 | 192.168.20.1 |
+| 30 | TI | 192.168.30.0/24 | 192.168.30.1 |
+| 40 | MGMT | 192.168.40.0/24 | 192.168.40.1 |
+| 50 | SALES | 192.168.50.0/24 | 192.168.50.1 |
+
+---
+
+## Asignación de IPs por Departamento
+
+### VLAN 10 – ADMIN (Piso 1)
+
+| Dispositivo | IP | Gateway |
+|-----------|----|--------|
+| Gerente (Laptop) | 192.168.10.10 | 192.168.10.1 |
+| Asistente Admin (PC) | 192.168.10.11 | 192.168.10.1 |
+
+
+---
+
+### VLAN 20 – GUEST (Piso 1)
+
+| Dispositivo | IP | Gateway |
+|-----------|----|--------|
+| Dispositivo Guest | 192.168.20.10 | 192.168.20.1 |
+
+
+
+---
+
+### VLAN 30 – TI (Piso 2)
+
+| Dispositivo | IP | Gateway |
+|-----------|----|--------|
+| Técnico TI 1 | 192.168.30.10 | 192.168.30.1 |
+| Técnico TI 2 | 192.168.30.11 | 192.168.30.1 |
+| Supervisor TI (Laptop) | 192.168.30.12 | 192.168.30.1 |
+| Server0 | 192.168.30.100 | 192.168.30.1 |
+
+
+
+---
+
+### VLAN 40 – MGMT (Piso 2)
+
+| Dispositivo | IP | Gateway |
+|-----------|----|--------|
+| Técnico MGMT 1 | 192.168.40.10 | 192.168.40.1 |
+| Técnico MGMT 2 | 192.168.40.11 | 192.168.40.1 |
+| Supervisor MGMT (Laptop) | 192.168.40.12 | 192.168.40.1 |
+
+---
+
+### VLAN 50 – SALES (Piso 3)
+
+| Dispositivo | IP | Gateway |
+|-----------|----|--------|
+| Supervisor Planta | 192.168.50.10 | 192.168.50.1 |
+| Operador 1 | 192.168.50.11 | 192.168.50.1 |
+| Operador 2 | 192.168.50.12 | 192.168.50.1 |
+| Operador 3 | 192.168.50.13 | 192.168.50.1 |
+| Operador 4 | 192.168.50.14 | 192.168.50.1 |
+| Operador 5 | 192.168.50.15 | 192.168.50.1 |
+| Operador 6 | 192.168.50.16 | 192.168.50.1 |
+| Operador 7 | 192.168.50.17 | 192.168.50.1 |
+| Operador 8 | 192.168.50.18 | 192.168.50.1 |
+| Impresora | 192.168.50.50 | 192.168.50.1 |
+
+
