@@ -18,7 +18,6 @@ Puertos Fa0/1–Fa0/5 reservados para crecimiento futuro.
 
 El AP provee conectividad inalámbrica únicamente para la VLAN GUEST.
 
-📸 Toma captura de este switch con los dispositivos conectados (evidencia de acceso por piso).
 
 ### Piso 2 – TI y MGMT
  - Switch: Switch Piso 2 (Cisco 2960)
@@ -50,7 +49,6 @@ Separación lógica estricta entre TI y MGMT mediante VLANs.
 
 Servidor ubicado en TI por control y mantenimiento.
 
-   **captura recomendada mostrando asignación de puertos por VLAN en este switch.*
 
 ### Piso 3 – Producción (SALES)
 - Switch: Switch Piso 3 (Cisco 2960)
@@ -77,4 +75,3 @@ Fa0/15 → Impresora de Producción (VLAN SALES)
 
 **Notas: Alta densidad de dispositivos concentrados en una sola VLAN. Ideal para aplicar políticas futuras de QoS o ACLs.**
 
-  *Esta topología es clave: captura general del piso 3 para evidencia del escenario productivo.*
