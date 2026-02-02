@@ -1,12 +1,12 @@
->>>Proyecto de Red Empresarial – TecnoPYME S.A.
->><Descripción general
+<<Proyecto de Red Empresarial – TecnoPYME S.A.
+<Descripción general
 
 Este proyecto documenta el diseño, configuración y validación de una red empresarial simulada para TecnoPYME S.A., implementada en Cisco Packet Tracer.
 El objetivo principal fue construir una red segmentada por VLANs, con enlaces backbone entre switches, enrutamiento inter-VLAN mediante Router-on-a-Stick, asignación manual de IPs y verificación completa de conectividad.
 
 El enfoque del proyecto es práctico, estructurado y documentado, siguiendo buenas prácticas de redes empresariales.
 
->><Objetivos del proyecto
+<Objetivos del proyecto
 
 Diseñar una topología jerárquica por pisos.
 
@@ -22,7 +22,7 @@ Validar conectividad intra-VLAN e inter-VLAN.
 
 Documentar cada etapa con evidencias técnicas.
 
->><Topología general
+<Topología general
 
 1 Router Cisco (Inter-VLAN Routing)
 
@@ -32,14 +32,15 @@ Endpoints distribuidos por VLAN según rol
 
 Enlaces backbone en puertos Gigabit entre switches y router
 
->><VLANs implementadas
+<VLANs implementadas>
 VLAN ID	Nombre	Propósito
 10	ADMIN	Administración
 20	GUEST	Visitantes
 30	TI	Tecnología
 40	MGMT	Gestión de red
 50	SALES	Ventas
->><Direccionamiento IP
+
+<Direccionamiento IP>
 VLAN	Red	Gateway
 VLAN 10	192.168.10.0/24	192.168.10.1
 VLAN 20	192.168.20.0/24	192.168.20.1
@@ -49,7 +50,7 @@ VLAN 50	192.168.50.0/24	192.168.50.1
 
 El gateway de cada VLAN corresponde a una subinterfaz del router.
 
->><Etapas del proyecto
+<Etapas del proyecto
 
 Asignación de nombres a equipos y cableado
 
